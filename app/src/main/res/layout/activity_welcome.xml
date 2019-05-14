@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/large">
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:text="@string/welcome_omar"
+        android:textColor="@color/grey"
+        android:textAllCaps="true"
+        android:fontFamily="serif"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logomust"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        />
+    <TextView
+        android:id="@+id/insert_employee"
+        style="@style/welcomeTV"
+        android:text="Insert student"
+        android:layout_marginTop="22dp"
+
+        />
+    <TextView
+        android:id="@+id/tvAllEmployees"
+       style="@style/welcomeTV"
+        android:text="view students"
+
+        />
+    <TextView
+        android:id="@+id/edit_departmen_Tv"
+        style="@style/welcomeTV"
+        android:text="edit collage"
+        />
+
+    <Button
+        android:id="@+id/logout_Btn"
+        android:textColor="@color/grey"
+        android:text="LOGOUT"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:layout_marginBottom="8dp"
+        />
+
+
+
+</LinearLayout>

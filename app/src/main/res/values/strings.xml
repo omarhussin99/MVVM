@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVVM_Must</string>
+    <string name="id">ID: %1$s</string>
+    <string name="username">Username: %1$s</string>
+    <string name="gender">Gender: %1$s</string>
+    <string name="dep">Department: %1$s</string>
+    <string name="welcome_omar">welcome %1$s</string>
+</resources>

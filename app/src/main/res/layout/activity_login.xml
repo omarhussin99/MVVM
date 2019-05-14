@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/large">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".LoginActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/logomust" />
+
+        <EditText
+            android:id="@+id/username_ED"
+            style="@style/loginET"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="2dp"
+            android:hint="Username"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:lines="1" />
+
+
+        <EditText
+            android:id="@+id/password_ED"
+            style="@style/loginET"
+            android:hint="Password"
+            android:imeOptions="actionGo"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+
+        <Button
+            android:id="@+id/acsses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="62dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="login"
+            android:textAllCaps="true"
+            android:textColor="@color/grey"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+</ScrollView>
